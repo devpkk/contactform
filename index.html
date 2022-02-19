@@ -50,6 +50,29 @@ font-color:#6092A8;">ติดต่อเรา..</h1>
 
     </fieldset>
   </form>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCuxnGkUkENzjR23WWIv_6wIq6uM9y-en8",
+    authDomain: "formapp-8367d.firebaseapp.com",
+    databaseURL: "https://formapp-8367d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "formapp-8367d",
+    storageBucket: "formapp-8367d.appspot.com",
+    messagingSenderId: "597082911566",
+    appId: "1:597082911566:web:59944583684f26d456a41f",
+    measurementId: "G-8LBRKG09EB"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
